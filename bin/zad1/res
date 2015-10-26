@@ -1,0 +1,26 @@
+if(conclusion1 == null){
+						System.out.println("1 null");
+						System.out.println(State.stateConverter(xorResult1).getString());
+						System.out.println(State.stateConverter(xorResult2).getString());
+						State tmp = State.stateConverter(xorResult1).conclude(State.stateConverter(xorResult2));
+						System.out.println(tmp.getString());
+						System.out.println(analyzedCiphergraph.getStates().get(i).getString());
+						System.out.println(tmp.conclude(analyzedCiphergraph.getStates().get(i)).getString());
+	
+					}
+					
+					if(conclusion2 == null){
+						System.out.println("2 null");
+					}
+					
+					if(conclusion3 == null){
+						System.out.println("3 null");
+						
+						System.out.println(State.stateConverter(xorResult2).getString());
+						System.out.println(State.stateConverter(xorResult3).getString());
+						State tmp = State.stateConverter(xorResult2).conclude(State.stateConverter(xorResult3));
+						System.out.println(tmp.getString());
+						System.out.println(analyzedCiphergraph.getStates().get(i).getString());
+						System.out.println(tmp.conclude(analyzedCiphergraph.getStates().get(i)).getString());
+					}
+					
