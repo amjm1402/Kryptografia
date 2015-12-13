@@ -1,0 +1,11 @@
+Zad1
+Stosujê siê do poleceñ.
+Mój komputer jest serwerem dziêki IIS 8.
+Modyfikuj¹c plik hosts jestem w stanie umieœciæ na serwerze stonê www.test.krypto.pl
+
+Zad2
+Stosujê siê do poleceñ.
+U¿ywam przegl¹darek chrome i ie
+
+Zad3
+Strona www.poczta.wp.pl dzia³a u¿ywaj¹c certyfikatu przedstawionego przeze mnie. 
